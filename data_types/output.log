@@ -1,0 +1,15 @@
+   Compiling data_types v0.1.0 (/home/haha/Rust/data_types)
+error[E0284]: type annotations needed for `Result<_, _>`
+ --> src/main.rs:2:9
+  |
+2 |     let x = "42".parse();
+  |         ^        ----- type must be known at this point
+  |
+  = note: cannot satisfy `<_ as FromStr>::Err == _`
+help: consider giving `x` an explicit type, where the type for type parameter `F` is specified
+  |
+2 |     let x: Result<F, _> = "42".parse();
+  |          ++++++++++++++
+
+For more information about this error, try `rustc --explain E0284`.
+error: could not compile `data_types` (bin "data_types") due to 1 previous error

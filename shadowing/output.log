@@ -1,0 +1,5 @@
+   Compiling shadowing v0.1.0 (/home/haha/Rust/shadowing)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.45s
+     Running `target/debug/shadowing`
+The value of x in the inner scope is 12
+The value of x is 6

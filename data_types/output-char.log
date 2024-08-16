@@ -1,0 +1,6 @@
+   Compiling data_types v0.1.0 (/home/haha/Rust/data_types)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 3.12s
+     Running `target/debug/data_types`
+The value of x is 65
+c: Z
+z: 😻

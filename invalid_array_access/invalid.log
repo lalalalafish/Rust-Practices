@@ -1,0 +1,7 @@
+   Compiling invalid_array_access v0.1.0 (/home/haha/Rust/invalid_array_access)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.33s
+     Running `target/debug/invalid_array_access`
+Please enter an array index:
+thread 'main' panicked at src/main.rs:19:19:
+index out of bounds: the len is 5 but the index is 5
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

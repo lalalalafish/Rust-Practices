@@ -1,0 +1,4 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.00s
+     Running `target/debug/invalid_array_access`
+Please enter an array index:
+The value of the element at index 2 is: 3

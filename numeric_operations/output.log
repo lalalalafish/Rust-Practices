@@ -1,0 +1,8 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.52s
+     Running `target/debug/numeric_operations`
+sum: 15
+difference: 91.2
+product: 120
+quotient: 1.7608695652173911
+truncated: -1
+remainder: 3

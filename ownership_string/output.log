@@ -1,0 +1,4 @@
+   Compiling ownership_string v0.1.0 (/home/haha/Rust/ownership_string)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.34s
+     Running `target/debug/ownership_string`
+hello, world!

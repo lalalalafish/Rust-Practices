@@ -1,0 +1,5 @@
+   Compiling tuple v0.1.0 (/home/haha/Rust/tuple)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.78s
+     Running `target/debug/tuple`
+(12, 32.5, Z, true)
+(true, Z, 32.5, 12)

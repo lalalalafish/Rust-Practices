@@ -1,0 +1,24 @@
+   Compiling statements_expressions v0.1.0 (/home/haha/Rust/statements_expressions)
+error: expected expression, found `let` statement
+ --> src/main.rs:3:14
+  |
+3 |     let y = (let z = 12);//ERROR
+  |              ^^^
+  |
+  = note: only supported directly in conditions of `if` and `while` expressions
+
+warning: unnecessary parentheses around assigned value
+ --> src/main.rs:3:13
+  |
+3 |     let y = (let z = 12);//ERROR
+  |             ^          ^
+  |
+  = note: `#[warn(unused_parens)]` on by default
+help: remove these parentheses
+  |
+3 -     let y = (let z = 12);//ERROR
+3 +     let y = let z = 12;//ERROR
+  |
+
+warning: `statements_expressions` (bin "statements_expressions") generated 1 warning
+error: could not compile `statements_expressions` (bin "statements_expressions") due to 1 previous error; 1 warning emitted

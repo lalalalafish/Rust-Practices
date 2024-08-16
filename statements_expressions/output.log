@@ -1,0 +1,7 @@
+   Compiling statements_expressions v0.1.0 (/home/haha/Rust/statements_expressions)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.21s
+     Running `target/debug/statements_expressions`
+The value of y is 4
+The value of x is 32
+The value of z is 34
+The value of str is Hello! 123

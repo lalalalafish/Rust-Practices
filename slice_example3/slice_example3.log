@@ -1,0 +1,13 @@
+   Compiling slice_example3 v0.1.0 (/home/haha/Rust/slice_example3)
+error[E0502]: cannot borrow `s` as mutable because it is also borrowed as immutable
+ --> src/main.rs:5:5
+  |
+4 |     let slice = first_word(&s);
+  |                            -- immutable borrow occurs here
+5 |     s.clear();
+  |     ^^^^^^^^^ mutable borrow occurs here
+6 |     println!("slice: {slice}");//Slice is sync with the data s
+  |                      ------- immutable borrow later used here
+
+For more information about this error, try `rustc --explain E0502`.
+error: could not compile `slice_example3` (bin "slice_example3") due to 1 previous error

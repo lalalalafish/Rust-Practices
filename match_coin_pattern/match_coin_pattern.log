@@ -1,0 +1,7 @@
+   Compiling match_coin_pattern v0.1.0 (/home/haha/Rust/match_coin_pattern)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.21s
+     Running `target/debug/match_coin_pattern`
+State quarter from Alabama!
+25
+State quarter from Alaska!
+25

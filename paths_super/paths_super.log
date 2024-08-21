@@ -1,0 +1,4 @@
+   Compiling paths_super v0.1.0 (/home/haha/Rust/paths_super)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 4.30s
+     Running `target/debug/paths_super`
+Hello, world!

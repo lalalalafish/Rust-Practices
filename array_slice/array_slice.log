@@ -1,0 +1,4 @@
+   Compiling array_slice v0.1.0 (/home/haha/Rust/array_slice)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2.00s
+     Running `target/debug/array_slice`
+[2, 3]

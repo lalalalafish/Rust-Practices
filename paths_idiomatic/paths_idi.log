@@ -1,0 +1,39 @@
+   Compiling paths_idiomatic v0.1.0 (/home/haha/Rust/paths_idiomatic)
+warning: unnecessary parentheses around type
+ --> src/lib.rs:8:30
+  |
+8 | fn function2() -> io::Result<(u8)> {
+  |                              ^  ^
+  |
+  = note: `#[warn(unused_parens)]` on by default
+help: remove these parentheses
+  |
+8 - fn function2() -> io::Result<(u8)> {
+8 + fn function2() -> io::Result<u8> {
+  |
+
+error[E0308]: mismatched types
+ --> src/lib.rs:4:19
+  |
+4 | fn function1() -> fmt::Result {
+  |    ---------      ^^^^^^^^^^^ expected `Result<(), Error>`, found `()`
+  |    |
+  |    implicitly returns `()` as its body has no tail or `return` expression
+  |
+  = note:   expected enum `Result<(), std::fmt::Error>`
+          found unit type `()`
+
+error[E0308]: mismatched types
+ --> src/lib.rs:8:19
+  |
+8 | fn function2() -> io::Result<(u8)> {
+  |    ---------      ^^^^^^^^^^^^^^^^ expected `Result<u8, Error>`, found `()`
+  |    |
+  |    implicitly returns `()` as its body has no tail or `return` expression
+  |
+  = note:   expected enum `Result<u8, std::io::Error>`
+          found unit type `()`
+
+For more information about this error, try `rustc --explain E0308`.
+warning: `paths_idiomatic` (lib) generated 1 warning
+error: could not compile `paths_idiomatic` (lib) due to 2 previous errors; 1 warning emitted

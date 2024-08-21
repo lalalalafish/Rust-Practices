@@ -1,0 +1,8 @@
+   Compiling slice_format v0.1.0 (/home/haha/Rust/slice_format)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.02s
+     Running `target/debug/slice_format`
+s: hello, world
+len: 12
+First word: hello/hello
+Second word: world/world
+Whole string: hello, world/hello, world

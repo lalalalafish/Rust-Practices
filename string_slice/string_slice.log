@@ -1,0 +1,8 @@
+   Compiling string_slice v0.1.0 (/home/haha/Rust/string_slice)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.30s
+     Running `target/debug/string_slice`
+hello,
+hello,
+hello,
+hello,
+hello,

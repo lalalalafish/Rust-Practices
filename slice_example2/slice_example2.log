@@ -1,0 +1,5 @@
+   Compiling slice_example2 v0.1.0 (/home/haha/Rust/slice_example2)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2.46s
+     Running `target/debug/slice_example2`
+hello: hello
+world: world

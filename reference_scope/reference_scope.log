@@ -1,0 +1,5 @@
+   Compiling reference_scope v0.1.0 (/home/haha/Rust/reference_scope)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.67s
+     Running `target/debug/reference_scope`
+hello and hello
+hello

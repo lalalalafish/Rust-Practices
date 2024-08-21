@@ -1,0 +1,3 @@
+   Compiling reference_dangling v0.1.0 (/home/haha/Rust/reference_dangling)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 3.00s
+     Running `target/debug/reference_dangling`

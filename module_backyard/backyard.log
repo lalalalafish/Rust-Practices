@@ -1,0 +1,4 @@
+   Compiling module_backyard v0.1.0 (/home/haha/Rust/module_backyard)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.41s
+     Running `/home/haha/Rust/module_backyard/target/debug/module_backyard`
+The plant: Asparagus

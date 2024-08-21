@@ -1,0 +1,4 @@
+   Compiling paths v0.1.0 (/home/haha/Rust/paths)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 5.85s
+     Running `target/debug/paths`
+Hello, world!

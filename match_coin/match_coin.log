@@ -1,0 +1,8 @@
+   Compiling match_coin v0.1.0 (/home/haha/Rust/match_coin)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.22s
+     Running `target/debug/match_coin`
+Lucky penny!
+p: 1
+n: 5
+d: 10
+q: 25

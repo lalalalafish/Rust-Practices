@@ -1,0 +1,7 @@
+   Compiling rectangles_method v0.1.0 (/home/haha/Rust/rectangles_method)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.50s
+     Running `target/debug/rectangles_method`
+The area of rect1: 1500
+The width of rect2: 40
+rect1 can hold rect2: false
+The square: width:24, height: 24

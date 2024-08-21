@@ -1,0 +1,14 @@
+   Compiling reference_mutableErr v0.1.0 (/home/haha/Rust/reference_mutableErr)
+error[E0499]: cannot borrow `s` as mutable more than once at a time
+ --> src/main.rs:5:14
+  |
+4 |     let r1 = &mut s;
+  |              ------ first mutable borrow occurs here
+5 |     let r2 = &mut s;
+  |              ^^^^^^ second mutable borrow occurs here
+6 |
+7 |     println!("r1: {r1}\nr2: {r2}");
+  |                   ---- first borrow later used here
+
+For more information about this error, try `rustc --explain E0499`.
+error: could not compile `reference_mutableErr` (bin "reference_mutableErr") due to 1 previous error

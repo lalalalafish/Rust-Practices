@@ -1,0 +1,4 @@
+   Compiling reference_mutable v0.1.0 (/home/haha/Rust/reference_mutable)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.84s
+     Running `target/debug/reference_mutable`
+s: hello, world

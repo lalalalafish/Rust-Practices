@@ -1,0 +1,20 @@
+   Compiling struct_def_init v0.1.0 (/home/haha/Rust/struct_def_init)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.22s
+     Running `target/debug/struct_def_init`
+user1:
+active: true
+email: first@example.com
+name: Peter
+sign_in_count: 12
+user2:
+active: true
+email: second@example.com
+name: Mike
+sign_in_count: 12
+user3:
+active: true
+email: first@example.com
+name: Peter
+sign_in_count: 12
+color: (33, 23, 21)
+point: (1, 2, 3)

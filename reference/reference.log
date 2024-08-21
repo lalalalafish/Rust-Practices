@@ -1,0 +1,4 @@
+   Compiling reference v0.1.0 (/home/haha/Rust/reference)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.45s
+     Running `target/debug/reference`
+The length of hello is 5

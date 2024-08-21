@@ -1,0 +1,10 @@
+   Compiling rectangles v0.1.0 (/home/haha/Rust/rectangles)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.16s
+     Running `target/debug/rectangles`
+[src/main.rs:10:16] 30 * scale = 60
+[src/main.rs:13:5] &rect1 = Rectangle {
+    width: 60,
+    height: 50,
+}
+rect1: Rectangle { width: 60, height: 50 }
+The area of the rectangle is 3000 square pixels

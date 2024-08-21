@@ -1,0 +1,6 @@
+   Compiling ownership_return_value v0.1.0 (/home/haha/Rust/ownership_return_value)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.13s
+     Running `target/debug/ownership_return_value`
+yours
+hello
+hello

@@ -1,0 +1,5 @@
+   Compiling ownership_function v0.1.0 (/home/haha/Rust/ownership_function)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2.24s
+     Running `target/debug/ownership_function`
+hello
+5

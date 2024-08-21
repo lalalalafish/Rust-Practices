@@ -1,0 +1,4 @@
+   Compiling match_coin_option v0.1.0 (/home/haha/Rust/match_coin_option)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.17s
+     Running `target/debug/match_coin_option`
+Some(5) Some(6) None

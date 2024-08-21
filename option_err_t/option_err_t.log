@@ -1,0 +1,16 @@
+   Compiling option_err_t v0.1.0 (/home/haha/Rust/option_err_t)
+error[E0277]: cannot add `Option<i8>` to `i8`
+ --> src/main.rs:5:17
+  |
+5 |     let sum = x + y;
+  |                 ^ no implementation for `i8 + Option<i8>`
+  |
+  = help: the trait `Add<Option<i8>>` is not implemented for `i8`
+  = help: the following other types implement trait `Add<Rhs>`:
+            `&'a i8` implements `Add<i8>`
+            `&i8` implements `Add<&i8>`
+            `i8` implements `Add<&i8>`
+            `i8` implements `Add`
+
+For more information about this error, try `rustc --explain E0277`.
+error: could not compile `option_err_t` (bin "option_err_t") due to 1 previous error

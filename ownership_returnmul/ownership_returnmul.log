@@ -1,0 +1,5 @@
+   Compiling ownership_returnmul v0.1.0 (/home/haha/Rust/ownership_returnmul)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.22s
+     Running `target/debug/ownership_returnmul`
+s2: hello
+len: 5
